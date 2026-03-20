@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://ajax.googleapis.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reformly Folding — Smart Folding Furniture</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+</head>
+<body>
+
+<nav id="nav">
+  <a href="#" class="logo">Reform<em>ly</em></a>
+  <ul class="nav-links">
+    <li><a href="#products">Shop</a></li>
+    <li><a href="#built">Craftsmanship</a></li>
+    <li><a href="#rent">Rent</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><button type="button" class="nav-cta" onclick="openShop()">Shop Now</button></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <!-- Image slides -->
+  <div class="hero-slides" id="heroSlides">
+    <div class="hero-slide active" style="background-image:url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1200&h=800&fit=crop')"></div>
+    <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&h=800&fit=crop')"></div>
+    <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1551632786-de41ec16a41d?w=1200&h=800&fit=crop')"></div>
+    <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=1200&h=800&fit=crop')"></div>
+  </div>
+
+  <!-- Hero content -->
+  <div style="position:relative;z-index:5;width:100%;max-width:700px;">
+    <div class="hero-badge"><span class="hero-dot"></span>New Collection</div>
+    <h1 class="hero-headline">Smart <em>Folding</em> <br>Furniture</h1>
+    <p class="hero-sub">Crafted with intention. Designed to disappear. Perfect for modern living.</p>
+    <div class="hero-btns">
+      <a href="#products" class="btn-primary-hero">Explore Collection</a>
+      <a href="#built" class="btn-ghost-hero">Learn More</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hstat">
+        <div class="hstat-num"><span>500</span>+</div>
+        <div class="hstat-lbl">Happy Customers</div>
+      </div>
+      <div class="hstat">
+        <div class="hstat-num">15<span>k</span></div>
+        <div class="hstat-lbl">Hours of Craftsmanship</div>
+      </div>
+      <div class="hstat">
+        <div class="hstat-num">98<span>%</span></div>
+        <div class="hstat-lbl">Sustainably Sourced</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide caption -->
+  <div class="hero-slide-caption" id="heroCaption">
+    <p class="hcap">Reformly Folding — Active Lifestyle</p>
+  </div>
+
+  <!-- Slider dots -->
+  <div class="hero-dots" id="heroDots"></div>
+
+  <!-- Slide counter -->
+  <div class="hero-counter" id="heroCounter"></div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track">
+    <div class="mitem">Beautiful Design <span class="mdot"></span></div>
+    <div class="mitem">Space-Saving Solutions <span class="mdot"></span></div>
+    <div class="mitem">Premium Materials <span class="mdot"></span></div>
+    <div class="mitem">Lifetime Support <span class="mdot"></span></div>
+    <div class="mitem">Beautiful Design <span class="mdot"></span></div>
+    <div class="mitem">Space-Saving Solutions <span class="mdot"></span></div>
+    <div class="mitem">Premium Materials <span class="mdot"></span></div>
+    <div class="mitem">Lifetime Support <span class="mdot"></span></div>
+  </div>
+</div>
+
+<!-- INTRO -->
+<section class="intro">
+  <div class="intro-inner">
+    <div class="intro-visual">
+      <div class="intro-visual-inner">🪑</div>
+      <div class="intro-visual-overlay"></div>
+      <div class="intro-caption">Smart folding chair in natural oak</div>
+    </div>
+    <div>
+      <p class="intro-label">About Reformly</p>
+      <h2 class="intro-heading">Furniture That <em>Adapts</em> To Your Life</h2>
+      <p class="intro-body">Every piece is thoughtfully designed and crafted with premium materials. Our folding furniture combines elegance with practicality, perfect for modern homes and offices.</p>
+      <div class="intro-points">
+        <div class="ipoint">
+          <div class="ipoint-num">01</div>
+          <div>
+            <div class="ipoint-title">Space Efficient</div>
+            <div class="ipoint-desc">Compact when folded, spacious when needed</div>
+          </div>
+        </div>
+        <div class="ipoint">
+          <div class="ipoint-num">02</div>
+          <div>
+            <div class="ipoint-title">Premium Quality</div>
+            <div class="ipoint-desc">Built to last with sustainable materials</div>
+          </div>
+        </div>
+        <div class="ipoint">
+          <div class="ipoint-num">03</div>
+          <div>
+            <div class="ipoint-title">Elegant Design</div>
+            <div class="ipoint-desc">Timeless aesthetics that complement any interior</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products-sec" id="products">
+  <div class="products-top">
+    <div class="products-intro">
+      <h2 style="font-family:'Playfair Display',serif;font-size:2.2rem;font-weight:500;color:var(--charcoal);margin:0;">Our Collection</h2>
+    </div>
+    <div class="cat-tabs" id="catTabs">
+      <button class="cat-tab active" data-cat="all">All Products</button>
+      <button class="cat-tab" data-cat="chairs">Chairs</button>
+      <button class="cat-tab" data-cat="tables">Tables</button>
+      <button class="cat-tab" data-cat="beds">Beds</button>
+    </div>
+  </div>
+  <div class="product-cards-duo" id="productCards"></div>
+</section>
+
+<!-- CRAFTSMANSHIP -->
+<section class="built" id="built">
+  <div class="built-inner">
+    <div class="built-visual">
+      <div style="font-size:10rem;text-align:center;">🛠️</div>
+    </div>
+    <div class="built-content">
+      <p class="built-label">Craftsmanship</p>
+      <h2 class="built-heading">Built To Last</h2>
+      <p class="built-body">Each piece undergoes rigorous quality testing. We use sustainably sourced materials and traditional joinery techniques combined with modern innovation.</p>
+      <ul class="built-list">
+        <li>Hand-selected premium woods</li>
+        <li>Precision engineering for durability</li>
+        <li>Sustainable production methods</li>
+        <li>Lifetime warranty on all joints</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- RENT SECTION -->
+<section class="rent-sec" id="rent">
+  <div class="rent-inner">
+    <h2 class="rent-title">Try Before You Buy</h2>
+    <p class="rent-sub">Not sure which piece is right for you? Rent any item for 30 days.</p>
+    <button class="rent-cta" onclick="alert('Rental program coming soon!')">Explore Rentals</button>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-sec" id="faq">
+  <div class="faq-top">
+    <h2>Frequently Asked Questions</h2>
+  </div>
+  <div class="faq-items">
+    <div class="faq-item">
+      <button class="faq-btn" onclick="toggleFaq(this)">
+        <span>What materials do you use?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-body">
+        <p>We use premium sustainable woods, including oak, walnut, and birch, combined with high-quality hardware and upholstery materials.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-btn" onclick="toggleFaq(this)">
+        <span>How long does folding/unfolding take?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-body">
+        <p>Most pieces fold or unfold in under 30 seconds with no tools required. It's designed for easy daily use.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-btn" onclick="toggleFaq(this)">
+        <span>Do you offer international shipping?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-body">
+        <p>Yes, we ship to most countries worldwide. Shipping costs and times vary by location.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-btn" onclick="toggleFaq(this)">
+        <span>What's your return policy?</span>
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-body">
+        <p>We offer a 60-day satisfaction guarantee. If you're not happy, return it for a full refund.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" id="footer">
+  <div class="ft-grid">
+    <div>
+      <div class="ft-logo">Reform<em>ly</em></div>
+      <p class="ft-desc">Smart folding furniture for modern living. Crafted with intention, designed to disappear.</p>
+    </div>
+    <div class="ft-col"><div class="ft-col-title">Products</div><ul><li><a href="#" onclick="return false;">Folding Chairs</a></li><li><a href="#" onclick="return false;">Folding Tables</a></li><li><a href="#" onclick="return false;">Wall Beds</a></li><li><a href="#" onclick="return false;">Bundles</a></li><li><a href="#" onclick="return false;">Accessories</a></li></ul></div>
+    <div class="ft-col"><div class="ft-col-title">Company</div><ul><li><a href="#" onclick="return false;">About Us</a></li><li><a href="#" onclick="return false;">Craftsmanship</a></li><li><a href="#" onclick="return false;">For Business</a></li><li><a href="#" onclick="return false;">Rent a Piece</a></li><li><a href="#" onclick="return false;">Blog</a></li></ul></div>
+    <div class="ft-col"><div class="ft-col-title">Support</div><ul><li><a href="#" onclick="return false;">FAQs</a></li><li><a href="#" onclick="return false;">Shipping</a></li><li><a href="#" onclick="return false;">Returns</a></li><li><a href="#" onclick="return false;">Contact</a></li><li><a href="#" onclick="return false;">Warranty</a></li></ul></div>
+  </div>
+  <div class="ft-bottom">
+    <div class="ft-copy">© Reformly 2026. All Rights Reserved.</div>
+    <div class="ft-socials">
+      <a href="#" class="soc" onclick="return false;">𝕏</a><a href="#" class="soc" onclick="return false;">in</a><a href="#" class="soc" onclick="return false;">ig</a>
+    </div>
+  </div>
+</footer>
+
+<button class="stbtn" id="stbtn" onclick="scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
